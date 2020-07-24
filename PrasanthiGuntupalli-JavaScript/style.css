@@ -1,0 +1,84 @@
+.mainbox{
+			
+    margin-left: 25%;
+    margin-right:25%;
+    margin-top:1%;
+    height:550px;
+    width:40%;
+    border-radius: 10px;
+}
+.mail
+{
+    background-color: rgb(83, 230, 250);
+    justify-content: space-between;
+}
+.input1
+{
+    width: 100%;
+    padding: 5px ;
+    box-sizing: border-box;
+}
+.inputdetails
+{
+    padding: 12px 70px 12px 70px;
+}
+.maindiv
+{
+    padding:20px;
+    max-width: 50%;
+    margin-left: 200px;
+}
+.button1
+{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(83, 230, 250);
+    color:white;
+    border:none;
+}
+.button2
+{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #3b5998;
+    color:white;
+    border:none;
+}
+.button3
+{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #db4a39 ;
+    color:white;
+    border:none;
+}
+.button4
+{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #a0c334 ;
+    color:white;
+    border:none;
+}
+.div-button
+{
+    margin-left:55px;
+    margin-right: 55px;
+    margin-bottom: 12px;
+    margin-top: 3px;
+}
+.div-button2
+{
+    margin-left:55px;
+    margin-right: 55px;
+    margin-bottom: 55px;
+    margin-top: 35px;
+}
+.d3
+{
+    justify-content: space-around;
+}
