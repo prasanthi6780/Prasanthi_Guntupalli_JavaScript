@@ -1,0 +1,22 @@
+function on_click1() {
+    var name=document.getElementById('name')
+    var mailid = document.getElementById('mailId')
+    var phno=document.getElementById('phNo')
+    var password = document.getElementById('inputPassword')
+    var repeatpassword=document.getElementById('inputPassword1')
+    if(name.value.length==0)
+        alert("Name cannot be Empty")
+	else if(mailid.value.length==0 && password.value.length==0)
+		alert("Username and Password cannot be empty.")
+    else if(mailid.value.length==0)
+        alert("Username cannot be empty.")
+	else if(password.value.length==0)
+        alert("Password cannot be empty.")
+    else if(password.value!=repeatpassword.value)
+        alert("Password doesn't match")
+    else if(phno.value.length!=10 || phno.value.length==0)
+        alert("enter phno in correct format and cannot be empty")
+    else if(name.value.length==0)
+        alert("Name cannot be Empty")
+
+}
